@@ -34,7 +34,7 @@ class MainActivity() : ComponentActivity(), Parcelable {
                 // `Scaffold` предоставляет стандартные компоненты UI.
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "hossam",
+                        name = "Ahmed",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
