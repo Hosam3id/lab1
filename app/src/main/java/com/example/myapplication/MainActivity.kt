@@ -34,7 +34,7 @@ class MainActivity() : ComponentActivity(), Parcelable {
                 // `Scaffold` предоставляет стандартные компоненты UI.
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Ahmed",
+                        name = "Hamza",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -79,6 +79,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme {
-        Greeting("hoss")
+        Greeting("hamza")
     }
 }
